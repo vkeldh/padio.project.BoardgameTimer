@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092F2347EA0127A797DB7E28 /* Pods_BoardTimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2891A634B462BBF98F47A39D /* Pods_BoardTimerTests.framework */; };
+		12DC595E804A6C11C97253CF /* Pods_BoardTimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8083E232621272BB2F60D74 /* Pods_BoardTimerUITests.framework */; };
+		6F3450C85328DB9A5CB592F9 /* Pods_BoardTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262890E056CFAC14D24148DF /* Pods_BoardTimer.framework */; };
 		E7E8B50420F83A1700AAD0BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E8B50320F83A1700AAD0BE /* AppDelegate.swift */; };
 		E7E8B50620F83A1700AAD0BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E8B50520F83A1700AAD0BE /* ViewController.swift */; };
 		E7E8B50920F83A1700AAD0BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E8B50720F83A1700AAD0BE /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		E7E8B50E20F83A1900AAD0BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E8B50C20F83A1900AAD0BE /* LaunchScreen.storyboard */; };
 		E7E8B51920F83A1900AAD0BE /* BoardTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E8B51820F83A1900AAD0BE /* BoardTimerTests.swift */; };
 		E7E8B52420F83A1900AAD0BE /* BoardTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E8B52320F83A1900AAD0BE /* BoardTimerUITests.swift */; };
+		E7E8B53220F8452000AAD0BE /* TimeSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E8B53120F8452000AAD0BE /* TimeSettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04B0E736E9A47AD6A96597CE /* Pods-BoardTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoardTimer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoardTimer/Pods-BoardTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		262890E056CFAC14D24148DF /* Pods_BoardTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoardTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2891A634B462BBF98F47A39D /* Pods_BoardTimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoardTimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		775CFFC5ADB9EE044C347988 /* Pods-BoardTimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoardTimerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoardTimerTests/Pods-BoardTimerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A5137ADD5C04E1D2CA8394B /* Pods-BoardTimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoardTimerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoardTimerTests/Pods-BoardTimerTests.release.xcconfig"; sourceTree = "<group>"; };
+		813EDBE0C0BE428869F88236 /* Pods-BoardTimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoardTimerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoardTimerUITests/Pods-BoardTimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B11C799AEAED9F8FB31C7C13 /* Pods-BoardTimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoardTimerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoardTimerUITests/Pods-BoardTimerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B8083E232621272BB2F60D74 /* Pods_BoardTimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoardTimerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E8B50020F83A1700AAD0BE /* BoardTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoardTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E8B50320F83A1700AAD0BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7E8B50520F83A1700AAD0BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,8 @@
 		E7E8B51F20F83A1900AAD0BE /* BoardTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoardTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E8B52320F83A1900AAD0BE /* BoardTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardTimerUITests.swift; sourceTree = "<group>"; };
 		E7E8B52520F83A1900AAD0BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E8B53120F8452000AAD0BE /* TimeSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSettingView.swift; sourceTree = "<group>"; };
+		EC2A8CB4DF14C2AA8DC8E1C1 /* Pods-BoardTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoardTimer.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoardTimer/Pods-BoardTimer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F3450C85328DB9A5CB592F9 /* Pods_BoardTimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				092F2347EA0127A797DB7E28 /* Pods_BoardTimerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12DC595E804A6C11C97253CF /* Pods_BoardTimerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B46C638A7DAA68C095499DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				262890E056CFAC14D24148DF /* Pods_BoardTimer.framework */,
+				2891A634B462BBF98F47A39D /* Pods_BoardTimerTests.framework */,
+				B8083E232621272BB2F60D74 /* Pods_BoardTimerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4381F0C560F153AF8482841 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04B0E736E9A47AD6A96597CE /* Pods-BoardTimer.debug.xcconfig */,
+				EC2A8CB4DF14C2AA8DC8E1C1 /* Pods-BoardTimer.release.xcconfig */,
+				775CFFC5ADB9EE044C347988 /* Pods-BoardTimerTests.debug.xcconfig */,
+				7A5137ADD5C04E1D2CA8394B /* Pods-BoardTimerTests.release.xcconfig */,
+				813EDBE0C0BE428869F88236 /* Pods-BoardTimerUITests.debug.xcconfig */,
+				B11C799AEAED9F8FB31C7C13 /* Pods-BoardTimerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E7E8B4F720F83A1700AAD0BE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				E7E8B51720F83A1900AAD0BE /* BoardTimerTests */,
 				E7E8B52220F83A1900AAD0BE /* BoardTimerUITests */,
 				E7E8B50120F83A1700AAD0BE /* Products */,
+				C4381F0C560F153AF8482841 /* Pods */,
+				9B46C638A7DAA68C095499DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +145,7 @@
 				E7E8B50A20F83A1900AAD0BE /* Assets.xcassets */,
 				E7E8B50C20F83A1900AAD0BE /* LaunchScreen.storyboard */,
 				E7E8B50F20F83A1900AAD0BE /* Info.plist */,
+				E7E8B53120F8452000AAD0BE /* TimeSettingView.swift */,
 			);
 			path = BoardTimer;
 			sourceTree = "<group>";
@@ -132,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7E8B52820F83A1900AAD0BE /* Build configuration list for PBXNativeTarget "BoardTimer" */;
 			buildPhases = (
+				F50E91D2BD52F28D4B140858 /* [CP] Check Pods Manifest.lock */,
 				E7E8B4FC20F83A1700AAD0BE /* Sources */,
 				E7E8B4FD20F83A1700AAD0BE /* Frameworks */,
 				E7E8B4FE20F83A1700AAD0BE /* Resources */,
@@ -149,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7E8B52B20F83A1900AAD0BE /* Build configuration list for PBXNativeTarget "BoardTimerTests" */;
 			buildPhases = (
+				DD325EB2BFC858488C14C15D /* [CP] Check Pods Manifest.lock */,
 				E7E8B51020F83A1900AAD0BE /* Sources */,
 				E7E8B51120F83A1900AAD0BE /* Frameworks */,
 				E7E8B51220F83A1900AAD0BE /* Resources */,
@@ -167,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7E8B52E20F83A1900AAD0BE /* Build configuration list for PBXNativeTarget "BoardTimerUITests" */;
 			buildPhases = (
+				2097B6F096CF2DEF97A576FC /* [CP] Check Pods Manifest.lock */,
 				E7E8B51B20F83A1900AAD0BE /* Sources */,
 				E7E8B51C20F83A1900AAD0BE /* Frameworks */,
 				E7E8B51D20F83A1900AAD0BE /* Resources */,
@@ -251,6 +297,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2097B6F096CF2DEF97A576FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoardTimerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD325EB2BFC858488C14C15D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoardTimerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F50E91D2BD52F28D4B140858 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoardTimer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E7E8B4FC20F83A1700AAD0BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +361,7 @@
 			files = (
 				E7E8B50620F83A1700AAD0BE /* ViewController.swift in Sources */,
 				E7E8B50420F83A1700AAD0BE /* AppDelegate.swift in Sources */,
+				E7E8B53220F8452000AAD0BE /* TimeSettingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,16 +534,18 @@
 		};
 		E7E8B52920F83A1900AAD0BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B0E736E9A47AD6A96597CE /* Pods-BoardTimer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4Y6VSM7R94;
+				DEVELOPMENT_TEAM = V8B57CJBVG;
 				INFOPLIST_FILE = BoardTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = padio.project.BoardTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = padio.project.BoardgameTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,16 +554,18 @@
 		};
 		E7E8B52A20F83A1900AAD0BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC2A8CB4DF14C2AA8DC8E1C1 /* Pods-BoardTimer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4Y6VSM7R94;
+				DEVELOPMENT_TEAM = V8B57CJBVG;
 				INFOPLIST_FILE = BoardTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = padio.project.BoardTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = padio.project.BoardgameTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,6 +574,7 @@
 		};
 		E7E8B52C20F83A1900AAD0BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 775CFFC5ADB9EE044C347988 /* Pods-BoardTimerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +596,7 @@
 		};
 		E7E8B52D20F83A1900AAD0BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A5137ADD5C04E1D2CA8394B /* Pods-BoardTimerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +618,7 @@
 		};
 		E7E8B52F20F83A1900AAD0BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 813EDBE0C0BE428869F88236 /* Pods-BoardTimerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +639,7 @@
 		};
 		E7E8B53020F83A1900AAD0BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B11C799AEAED9F8FB31C7C13 /* Pods-BoardTimerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
